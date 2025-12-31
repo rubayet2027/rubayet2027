@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTQwcnEyam9zZHR6am16ajRhY2FkMHh4OTlnOGVqaHZwd3U2MmJtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mKAc6ZZqeE4Ao/giphy.gif" height="500" width="600" />
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTQwcnEyam9zZHR6am16ajRhY2FkMHh4OTlnOGVqaHZwd3U2MmJtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mKAc6ZZqeE4Ao/giphy.gif" height="600" width="1200" />
   
   <br />
   
@@ -17,8 +17,10 @@
 </div>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&section=header&text=Welcome%20To%20My%20Profile&fontSize=35&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=000000&strokeWidth=2&animation=fadeIn" />
+  <img width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=180&section=header&text=✨%20Assalamualaikum!%20Welcome✨&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&animation=fadeIn" />
 </div>
+
 
 <h3>👨‍💻 Myself, Al Rubayet Turjo</h3>
 <p>
