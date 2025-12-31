@@ -1,25 +1,41 @@
 <div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTQwcnEyam9zZHR6am16ajRhY2FkMHh4OTlnOGVqaHZwd3U2MmJtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mKAc6ZZqeE4Ao/giphy.gif" height="600" width="1200" />
-  
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTQwcnEyam9zZHR6am16ajRhY2FkMHh4OTlnOGVqaHZwd3U2MmJtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mKAc6ZZqeE4Ao/giphy.gif" height="400" width="1200" />
   <br />
-  
-  <p>
-    <a href="https://linkedin.com/in/rubayet2027">
-      <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="30" alt="linkedin" />
-    </a>
-    <a href="mailto:rubayetofficial2027@gmail.com">
-      <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="40" height="30" alt="gmail" />
-    </a>
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="40" height="30" alt="discord" />
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="40" height="30" alt="telegram" />
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="40" height="30" alt="whatsapp" />
-  </p>
 </div>
-
 <div align="center">
   <img width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=180&section=header&text=✨%20Assalamualaikum!%20Welcome✨&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&animation=fadeIn" />
+    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,22,18&height=180&section=header&text=✨%20Assalamualaikum!%20Welcome✨&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&animation=fadeIn" />
 </div>
+
+
+<h3 align="center">Let's Connect</h3>
+
+<p align="center">
+  <a href="https://linkedin.com/in/rubayet2027" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"
+      width="40" height="30" alt="LinkedIn" />
+  </a>
+
+  <a href="mailto:rubayetofficial2027@gmail.com">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
+      width="40" height="30" alt="Gmail" />
+  </a>
+
+  <a href="https://discord.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg"
+      width="40" height="30" alt="Discord" />
+  </a>
+
+  <a href="https://t.me/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg"
+      width="40" height="30" alt="Telegram" />
+  </a>
+
+  <a href="https://wa.me/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg"
+      width="40" height="30" alt="WhatsApp" />
+  </a>
+</p>
 
 
 <h3>👨‍💻 Myself, Al Rubayet Turjo</h3>
