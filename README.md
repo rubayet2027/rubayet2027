@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTQwcnEyam9zZHR6am16ajRhY2FkMHh4OTlnOGVqaHZwd3U2MmJtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mKAc6ZZqeE4Ao/giphy.gif" height="400" width="1200" />
-  <br />
-</div>
-<div align="center">
   <img width="100%"
     src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,22,18&height=180&section=header&text=✨%20Assalamualaikum!%20Welcome✨&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&animation=fadeIn" />
 </div>
+
+<h1 align="center">Al Rubayet Turjo</h1>
+<p align="center"><b>Software Engineer | MERN Stack | AI Automation | CUET CSE</b></p>
+<p align="center"><b>Open to Opportunities:</b> Internship · Full-time · Remote</p>
 
 
 <h3 align="center">Let's Connect</h3>
@@ -21,37 +21,33 @@
       width="40" height="30" alt="Gmail" />
   </a>
 
-  <a href="https://discord.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg"
-      width="40" height="30" alt="Discord" />
-  </a>
-
-  <a href="https://t.me/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg"
-      width="40" height="30" alt="Telegram" />
-  </a>
-
-  <a href="https://wa.me/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg"
-      width="40" height="30" alt="WhatsApp" />
+  <a href="https://al-rubayet-turjo.web.app" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/website/default.svg"
+      width="40" height="30" alt="Portfolio" />
   </a>
 </p>
 
 
-<h3>👨‍💻 Myself, Al Rubayet Turjo</h3>
+<h3>Professional Summary</h3>
 <p>
-I’m a <b>Computer Science & Engineering student</b> at CUET and a <b>MERN Stack developer</b>. I specialize in building scalable systems, exploring AI automation, and Web3 concepts.
+I’m a <b>Computer Science & Engineering student</b> at CUET and a <b>MERN Stack developer</b> focused on building production-ready web applications and clean APIs. I care about scalable architectures, reliable data flows, and user-friendly interfaces.
 </p>
 
 <ul>
- <li>🔭 <b>Building:</b> Full-stack web apps & REST APIs</li>
- <li>🤖 <b>Exploring:</b> AI Agents, Chatbots & Blockchain</li>
- <li>🌱 <b>Learning:</b> Advanced Cloud Architecture (AWS/K8s)</li>
+ <li><b>Building:</b> Full-stack web apps and REST APIs with React, Node.js, and MongoDB.</li>
+ <li><b>Exploring:</b> AI-assisted features, intelligent search, and automation workflows.</li>
+ <li><b>Learning:</b> Cloud deployment, containerization, and scalable system design.</li>
 </ul>
 
-<br />
+<h3>Featured Projects</h3>
+<ul>
+  <li><b><a href="https://github.com/rubayet2027/Creatix" target="_blank">Creatix</a></b> — Full-stack contest management platform with role-based access, payments, and real-time stats.</li>
+  <li><b><a href="https://github.com/rubayet2027/EduXolve" target="_blank">EduXolve</a></b> — AI-powered academic learning platform with semantic search, chat assistant, and content generation.</li>
+  <li><b><a href="https://github.com/rubayet2027/hackathon" target="_blank">Hackathon Challenge</a></b> — Microservice challenge simulating long-running downloads and resilient systems design.</li>
+</ul>
 
 <h3>🛠 Tools & Technologies</h3>
+<p><b>Primary stack:</b> React, Next.js, Node.js, Express, MongoDB, Firebase, AWS, Docker.</p>
 <table>
   <tr>
     <td align="center" width="120"><b>Frontend</b></td>
