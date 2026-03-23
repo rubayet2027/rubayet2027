@@ -4,8 +4,8 @@
 </div>
 
 <h1 align="center">Al Rubayet Turjo</h1>
-<p align="center"><b>Software Engineer | MERN Stack | AI Automation | CUET CSE</b></p>
-<p align="center"><b>Open to Opportunities:</b> Internship · Full-time · Remote</p>
+<p align="center"><b>Software Engineering Student | MERN Stack | AI Automation | CUET CSE</b></p>
+<p align="center"><b>Open to Opportunities:</b> Internship | Full-time | Remote</p>
 
 
 <h3 align="center">Let's Connect</h3>
