@@ -22,8 +22,6 @@
   </a>
 
   <a href="https://al-rubayet-turjo.web.app" target="_blank" aria-label="My Portfolio">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/website/default.svg"
-      width="40" height="30" alt="Portfolio" />
     <span>My Portfolio</span>
   </a>
 </p>
