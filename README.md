@@ -9,7 +9,7 @@
 <h5 align="center">
   <code><a href="https://linkedin.com/in/rubayet2027" title="LinkedIn Profile"><img width="22" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg"> LinkedIn</a></code>
   <code><a href="mailto:rubayetofficial2027@gmail.com" title="Email"><img width="22" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"> Email</a></code>
-  <code><a href="https://al-rubayet-turjo.web.app" title="Portfolio"><img width="22" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/website/default.svg"> Portfolio</a></code>
+  <code><a href="https://al-rubayet-turjo.web.app" title="Portfolio"> Portfolio</a></code>
 </h5>
 <br>
 
