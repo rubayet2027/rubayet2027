@@ -3,8 +3,33 @@
     .t { font: 500 26px "Fira Code", "Cascadia Code", Consolas, "Courier New", monospace; fill: #61dafb; letter-spacing: .5px; }
     .c { fill: #61dafb; }
   </style>
-  <text class="t" x="28" y="40">Assalamualaikum! &#x1F44B;</text>
-  <text class="t" x="28" y="76">I&#x27;m Al Rubayet Turjo</text>
-  <text class="t" x="28" y="112">Full-Stack Software Engineer</text>
-  <rect class="c" x="478" y="92" width="14" height="26"/>
+  <defs>
+    <clipPath id="reveal-1">
+      <rect x="28" y="0" width="0" height="132">
+        <animate attributeName="width" values="0;320" begin="0.3s" dur="0.85s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal-2">
+      <rect x="28" y="0" width="0" height="132">
+        <animate attributeName="width" values="0;326" begin="1.5s" dur="0.95s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal-3">
+      <rect x="28" y="0" width="0" height="132">
+        <animate attributeName="width" values="0;440" begin="2.9s" dur="1.25s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <text class="t" x="28" y="40" clip-path="url(#reveal-1)">Assalamualaikum! &#x1F44B;</text>
+  <text class="t" x="28" y="76" clip-path="url(#reveal-2)">I&#x27;m Al Rubayet Turjo</text>
+  <text class="t" x="28" y="112" clip-path="url(#reveal-3)">Full-Stack Software Engineer</text>
+  <rect class="c" x="28" y="20" width="14" height="26">
+    <animate attributeName="x" dur="6s" repeatCount="1" fill="freeze"
+             keyTimes="0;0.05;0.19166667;0.25;0.25;0.40833333;0.48333333;0.48333333;0.69166667;1"
+             values="28;28;352;352;28;358;358;28;472;472"/>
+    <animate attributeName="y" dur="6s" repeatCount="1" fill="freeze"
+             keyTimes="0;0.25;0.25;0.48333333;0.48333333;1"
+             values="20;20;56;56;92;92"/>
+    <animate attributeName="opacity" calcMode="discrete" values="1;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>
