@@ -1,0 +1,43 @@
+name: Generate Stat Cards
+
+on:
+  schedule:
+    - cron: "15 0 * * *" # daily, offset from the pacman contribution graph
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_cards.py"
+      - ".github/workflows/cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate cards
+        run: python scripts/generate_cards.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cards/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh GitHub stat cards"
+            git push origin HEAD:main
+          else
+            echo "Cards up to date - nothing to commit."
+          fi
