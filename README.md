@@ -52,10 +52,7 @@
       <img src="assets/icons/python.svg" height="32" alt="Python" title="Python">
       <img src="assets/icons/java.svg" height="32" alt="Java" title="Java">
       <img src="assets/icons/csharp.svg" height="32" alt="C#" title="C#">
-      <img src="assets/icons/cplusplus.svg" height="32" alt="C++" title="C++"><br>
-      <b>🗄️ Databases</b><br><br>
-      <img src="assets/icons/mongodb.svg" height="32" alt="MongoDB" title="MongoDB">
-      <img src="assets/icons/mysql.svg" height="32" alt="MySQL" title="MySQL">
+      <img src="assets/icons/cplusplus.svg" height="32" alt="C++" title="C++">
     </td>
     <td align="center" width="50%">
       <b>🎨 Frontend</b><br><br>
@@ -63,8 +60,17 @@
       <img src="assets/icons/nextjs.svg" height="32" alt="Next.js" title="Next.js">
       <img src="assets/icons/tailwindcss.svg" height="32" alt="Tailwind CSS" title="Tailwind CSS">
       <img src="assets/icons/html5.svg" height="32" alt="HTML5" title="HTML5">
-      <img src="assets/icons/css3.svg" height="32" alt="CSS3" title="CSS3"><br>
-      <b>🚀 Backend & Tools</b><br><br>
+      <img src="assets/icons/css3.svg" height="32" alt="CSS3" title="CSS3">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b>🗄️ Databases</b><br><br>
+      <img src="assets/icons/mongodb.svg" height="32" alt="MongoDB" title="MongoDB">
+      <img src="assets/icons/mysql.svg" height="32" alt="MySQL" title="MySQL">
+    </td>
+    <td align="center" width="50%">
+      <b>🚀 Backend &amp; Tools</b><br><br>
       <img src="assets/icons/nodejs.svg" height="32" alt="Node.js" title="Node.js">
       <img src="assets/icons/express.svg" height="32" alt="Express" title="Express">
       <img src="assets/icons/spring.svg" height="32" alt="Spring" title="Spring">
