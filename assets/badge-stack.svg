@@ -1,6 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="196" height="28" viewBox="0 0 196 28" role="img" aria-label="stack: MERN dot TypeScript">
+  <defs>
+    <clipPath id="shine-stack">
+      <path d="M6 1h49a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6V7a6 6 0 0 1 6-6z"/>
+      <path d="M61 1h129a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H61z"/>
+    </clipPath>
+  </defs>
   <path d="M6 1h49a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6V7a6 6 0 0 1 6-6z" fill="#555"/>
   <path d="M61 1h129a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H61z" fill="#007ec6"/>
   <text x="30.5" y="18.5" text-anchor="middle" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="11.5" fill="#fff">stack</text>
   <text x="128" y="18.5" text-anchor="middle" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="11.5" fill="#fff">MERN &#183; TypeScript</text>
+  <g clip-path="url(#shine-stack)">
+    <rect x="-70" y="0" width="28" height="28" fill="#ffffff" opacity="0.3">
+      <animate attributeName="x" values="-70;-70;230;230" keyTimes="0;0.4;0.6;1" dur="4.5s" begin="2.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>

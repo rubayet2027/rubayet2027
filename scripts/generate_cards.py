@@ -15,6 +15,7 @@ import subprocess
 import sys
 import urllib.request
 from datetime import datetime, timezone
+from xml.sax.saxutils import escape
 
 API = "https://api.github.com"
 USER = "rubayet2027"
@@ -148,7 +149,7 @@ def card_svg(w, h, inner):
 def title(y, text, w):
     return (
         f'<text x="{w // 2}" y="{y}" text-anchor="middle" font-family="{FONT}" '
-        f'font-size="15" font-weight="600" fill="{TITLE}">{text}</text>'
+        f'font-size="15" font-weight="600" fill="{TITLE}">{escape(text)}</text>'
     )
 
 
@@ -229,6 +230,8 @@ def render_stats(d):
         ix = x0 + 34
         parts.append(
             f'<g>'
+            f'<animate attributeName="opacity" values="0;1" '
+            f'begin="{0.15 + i * 0.12:.2f}s" dur="0.45s" fill="freeze"/>'
             f"{draw(ix, mid - 26)}"
             f'<text x="{ix + 28}" y="{mid - 8}" font-family="{FONT}" '
             f'font-size="26" font-weight="700" fill="{NUMBER}">{value}</text>'
@@ -246,16 +249,18 @@ def render_top_langs(d):
     total = sum(v for _, v in langs) or 1
     parts = [title(34, "Top Languages", w)]
     y = 66
-    for name, size in langs:
+    for i, (name, size) in enumerate(langs):
         pct = size / total * 100
         bar_w = max(28, pct / 100 * 300)
         color = LANG_COLORS.get(name, FALLBACK_COLOR)
         parts.append(
             f'<g font-family="{FONT}">'
-            f'<text x="40" y="{y + 9}" font-size="12.5" fill="{TEXT}">{name}</text>'
+            f'<text x="40" y="{y + 9}" font-size="12.5" fill="{TEXT}">{escape(name)}</text>'
             f'<rect x="150" y="{y}" width="300" height="12" rx="6" fill="#161b22"/>'
-            f'<rect x="150" y="{y}" width="{bar_w:.0f}" height="12" rx="6" '
-            f'fill="{color}"/>'
+            f'<rect x="150" y="{y}" width="0" height="12" rx="6" fill="{color}">'
+            f'<animate attributeName="width" values="0;{bar_w:.0f}" '
+            f'begin="{0.2 + i * 0.15:.2f}s" dur="0.8s" fill="freeze" '
+            f'calcMode="spline" keyTimes="0;1" keySplines="0.2 0 0.8 1"/></rect>'
             f'<text x="460" y="{y + 10}" font-size="11.5" fill="{LABEL}">'
             f'{pct:.1f}%</text>'
             f"</g>"
@@ -266,9 +271,9 @@ def render_top_langs(d):
 
 def render_pin(repo):
     w, h = 500, 132
-    name = repo["name"]
+    name = escape(repo["name"])
     url = repo["html_url"]
-    lang = repo.get("language")
+    lang = escape(repo.get("language") or "")
     stars = repo["stargazers_count"]
     forks = repo["forks_count"]
     parts = [
@@ -278,7 +283,7 @@ def render_pin(repo):
         f'font-size="11.5" fill="{MUTED}">Public Repository</text>'
     ]
     if repo.get("description"):
-        desc = repo["description"][:64]
+        desc = escape(repo["description"][:64])
         parts.append(
             f'<text x="24" y="70" font-family="{FONT}" font-size="12" '
             f'fill="{TEXT}">{desc}</text>'
@@ -299,7 +304,9 @@ def render_pin(repo):
         f'<text x="454" y="{fy}" font-family="{FONT}" font-size="12" '
         f'fill="{LABEL}">{forks}</text>'
     )
-    return card_svg(w, h, "".join(parts))
+    fade = ('<animate attributeName="opacity" values="0;1" '
+            'begin="0.1s" dur="0.5s" fill="freeze"/>')
+    return card_svg(w, h, f"<g>{fade}{''.join(parts)}</g>")
 
 
 GIT_BRANCH = (
