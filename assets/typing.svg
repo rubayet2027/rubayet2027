@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="132" viewBox="0 0 560 132" role="img" aria-label="Assalamualaikum! I'm Al Rubayet Turjo, Full-Stack Software Engineer">
+  <style>
+    .t { font: 500 26px "Fira Code", "Cascadia Code", Consolas, "Courier New", monospace; fill: #61dafb; letter-spacing: .5px; }
+    .c { fill: #61dafb; }
+  </style>
+  <text class="t" x="28" y="40">Assalamualaikum! &#x1F44B;</text>
+  <text class="t" x="28" y="76">I&#x27;m Al Rubayet Turjo</text>
+  <text class="t" x="28" y="112">Full-Stack Software Engineer</text>
+  <rect class="c" x="478" y="92" width="14" height="26"/>
+</svg>
